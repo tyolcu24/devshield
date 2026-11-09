@@ -1,6 +1,6 @@
 # DevShield
 
-macOS ve Windows için açık kaynak geliştirici yazılım izleme uygulaması. Tauri 2 + Rust, React + TypeScript ve yerel SQLite. **0.2.1 test adayıdır; genel yayın henüz yapılmadı.**
+macOS ve Windows için açık kaynak geliştirici yazılım izleme uygulaması. Tauri 2 + Rust, React + TypeScript ve yerel SQLite. **0.2.1 test adayıdır; kaynak kodu herkese açıktır; deneysel test sürümüdür.**
 
 ## Neler yapar?
 

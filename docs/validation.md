@@ -24,3 +24,5 @@ Windows üzerinde gerçek winget export, NSIS kurulum/kaldırma ve bildirim; mac
 ## 0.2.1 düzeltmeleri
 
 24 Rust ve 5 frontend testi geçti. Yeni testler doğrudan makbuz taraması, Cellar dışına çıkan yollar, olmayan makbuz, bağımlılık ayrımı, eski snapshot gizleme ve uzak IPC origin reddini kapsar. Önceki 0.2.0 GUI gözlemleri yeni sürümün uçtan uca doğrulaması sayılmaz. macOS makbuz doğrulaması envanterdeki 61 kayıt için yerel kayıt buldu; bunların 7’si doğrudan kurulum, 54’ü bağımlılıktır. Bu istatistik yalnızca test çalışma ortamına aittir; kullanıcı her makbuzu kendi cihazında incelemelidir.
+
+0.2.1 gerçek pencere kontrolü: eski kayıt banner’ı, yeni çevrimdışı tarama, 7 doğrudan / 54 bağımlılık ayrımı, varsayılan 7 görünür satır ve Node kurulum makbuzu yolu doğrulandı. Dar IPC izinleriyle tarama ve olay dinleme çalıştı. Özel GitHub güvenlik bildirimleri kullanıcının açık onayıyla açıldı.
