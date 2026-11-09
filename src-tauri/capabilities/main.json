@@ -1,0 +1,17 @@
+{
+  "identifier": "main",
+  "description": "Local main window only; no shell, filesystem or HTTP plugins.",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-scan-inventory",
+    "allow-get-settings",
+    "allow-save-settings",
+    "allow-latest-scan",
+    "allow-scan-history",
+    "allow-export-report"
+  ]
+}
